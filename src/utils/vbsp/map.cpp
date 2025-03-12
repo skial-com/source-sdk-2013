@@ -3097,7 +3097,7 @@ ChunkFileResult_t CMapFile::LoadSolidCallback(CChunkFile *pFile, LoadEntity_t *p
 			return( ChunkFile_Ok );
 		}
 
-		AddBrushBevels (b);
+		//AddBrushBevels (b);
 
 		nummapbrushes++;
 		pLoadEntity->pEntity->numbrushes++;		
